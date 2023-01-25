@@ -1,15 +1,15 @@
 public class Main {
 
-    public static void sumaDe3(String[] args) { // Funcion de suma de 3 variables
-        sumaDe3(5, 4, 1);
-    }
-
     public static void main(String[] args) {
-        coche miCoche = new coche();
+        Coche miCoche = new Coche();
+        miCoche.agregarPuerta();
+        miCoche.agregarPuerta();
         miCoche.agregarPuerta();
         System.out.println(miCoche.puertas);
+        int resultado = sumaDe3(5, 4, 1);
+        System.out.println(resultado);
     }
-}
+
     public static int sumaDe3(int a, int b, int c) {
         int sumaDe3;
         sumaDe3 = a + b + c;
@@ -24,3 +24,4 @@ class Coche {
     public void agregarPuerta() {
         this.puertas++;
     }
+}
