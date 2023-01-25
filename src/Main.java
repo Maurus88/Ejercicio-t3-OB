@@ -13,7 +13,6 @@ public class Main {
     public static int sumaDe3(int a, int b, int c) {
         int sumaDe3;
         sumaDe3 = a + b + c;
-        System.out.println(sumaDe3);
         return sumaDe3;
     }
 }
